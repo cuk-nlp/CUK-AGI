@@ -3,7 +3,6 @@
 **Multi-LLM Agent 기반 사용자 상호작용 및 능동학습 AGI 프레임워크**
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 개요
 
