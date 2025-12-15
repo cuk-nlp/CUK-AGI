@@ -47,6 +47,7 @@ class GNNEncoder(nn.Module if TORCH_AVAILABLE else object):
     - GCN: Graph Convolutional Network
     - GAT: Graph Attention Network
     - GraphSAGE: Sample and Aggregate
+    - grn: Graph relation network
     """
     
     def __init__(self, config: EmbeddingConfig):
