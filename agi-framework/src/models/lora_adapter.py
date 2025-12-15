@@ -158,7 +158,7 @@ class LoRAAdapter:
     
     def load_adapter(self, adapter_path: str) -> Optional[str]:
         """
-        저장된 어댑터 로드
+    
         
         Args:
             adapter_path: 어댑터 경로
