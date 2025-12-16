@@ -20,22 +20,22 @@ class MessageType(Enum):
     KNOWLEDGE_REQUEST = "knowledge_request"
     KNOWLEDGE_RESPONSE = "knowledge_response"
     
-    # 컨텍스트 관련
+    # 컨텍스트 관련 
     CONTEXT_REQUEST = "context_request"
     CONTEXT_RESPONSE = "context_response"
     HISTORY_REQUEST = "history_request"
     HISTORY_RESPONSE = "history_response"
     
-    # 추론 관련
+    # 추론 관련 
     REASONING_REQUEST = "reasoning_request"
     REASONING_RESPONSE = "reasoning_response"
     
-    # 학습 관련
+    # 학습 관련 
     LEARNING_REQUEST = "learning_request"
     LEARNING_RESPONSE = "learning_response"
     TASK_MODULE_REQUEST = "task_module_request"
     
-    # 시스템 관련
+    # 시스템 관련 
     TASK_ASSIGNMENT = "task_assignment"
     TASK_COMPLETE = "task_complete"
     ERROR = "error"
