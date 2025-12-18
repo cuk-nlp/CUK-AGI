@@ -70,7 +70,6 @@ class AdapterConfig:
             bias=self.bias,
         )
 
-
 class LoRAAdapter:
     """
     LoRA 어댑터 관리자
@@ -312,7 +311,6 @@ class AdapterPool:
     
     여러 태스크별 어댑터를 관리하고 동적으로 전환
     """
-    
     def __init__(self, base_model_name: str = None):
         self.base_model_name = base_model_name
         self.adapters: Dict[str, LoRAAdapter] = {}
