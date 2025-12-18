@@ -1,6 +1,6 @@
 """
 그래프 임베딩
-GNN 기반 노드/그래프 임베딩 모듈
+GNN 기반 노드/그래프 임베딩 모듈!
 """
 
 from typing import Any, Dict, List, Optional, Tuple
