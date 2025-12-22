@@ -106,7 +106,7 @@ class LearningAgent(BaseAgent):
             asyncio.create_task(self._auto_learning_loop())
     
     async def _auto_learning_loop(self):
-        """자동 학습 루프"""
+        """주기적으로 데이터셋 크기를 확인하여 임계치 초과 시 자동 학습 수행"""
         while self._running:
             try:
                 # 주기적 체크
