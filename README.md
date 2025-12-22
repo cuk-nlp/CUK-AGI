@@ -6,7 +6,7 @@
 
 ## 개요
 
-본 프레임워크는 다중 LLM 에이전트 기반의 AGI(Artificial General Intelligence) 시스템으로, 각 에이전트가 독립적으로 작동하면서 상호 연계하여 복잡한 작업을 수행합니다.
+본 프레임워크는 다중 LLM 에이전트 기반의 AGI(Artificial General Intelligence) 시스템으로, 각 에이전트가 독립적으로 작동하면서 상호 연계하여 복잡한 작업을 수행함
 
 ### 주요 특징
 
